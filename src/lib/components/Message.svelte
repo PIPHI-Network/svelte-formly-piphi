@@ -31,5 +31,5 @@
 </script>
 
 {#if error}
-	<div class="invalid-feedback error">{displayError(error)}</div>
+	<div class="p-2 text-red-400 text-xs">{displayError(error)}</div>
 {/if}
